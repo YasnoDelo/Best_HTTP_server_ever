@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/YasnoDelo/Best_HTTP_server_ever/httpclient"
+	"github.com/YasnoDelo/Best_HTTP_server_ever/internal/httpclient"
 )
 
 func TestSendMetric(t *testing.T) {

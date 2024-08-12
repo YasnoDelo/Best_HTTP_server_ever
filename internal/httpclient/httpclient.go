@@ -7,6 +7,10 @@ import (
 	"time"
 )
 
+type HTTPClientInterface interface {
+	SendMetric(metricType, metricName string, value interface{}) error
+}
+
 type HTTPClient struct {
 	client  *http.Client
 	baseURL string

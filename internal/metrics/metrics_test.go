@@ -3,7 +3,7 @@ package metrics_test
 import (
 	"testing"
 
-	"github.com/YasnoDelo/Best_HTTP_server_ever/metrics"
+	"github.com/YasnoDelo/Best_HTTP_server_ever/internal/metrics"
 )
 
 func TestUpdateMetrics(t *testing.T) {
